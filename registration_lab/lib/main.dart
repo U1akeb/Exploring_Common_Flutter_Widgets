@@ -41,8 +41,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   }
 
   void _submitForm() {
-    if (_formKey.currentState!.validate()) {
-      // Show success dialog
+    if (_formKey.currentState!.validate()){
+      
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
